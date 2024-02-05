@@ -1,0 +1,19 @@
+# Step 1
+print('Hello World')
+print(*str('Hello') + str(' ') + str('World'),sep='\n')
+a = 'Hello'
+b = 'World'
+c = ' '
+print(*a + c + b,sep='*')
+# Step 2
+firs_name = 'Oleh'
+last_name = 'Sirosh'
+age = 35
+gender = 'Male'
+weight = 60.0
+bmi = 2.5
+diagnoses = []
+next_of_kin = []
+has_medical_card = True
+contact_number = '0874752353'
+print(type(firs_name),type(last_name),type(age),type(gender),type(weight),type(bmi),type(diagnoses),type(next_of_kin),type(has_medical_card),type(contact_number),sep = '\n')
