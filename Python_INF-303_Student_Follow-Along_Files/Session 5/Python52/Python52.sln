@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "52ab-try-except", "52ab-try-except\52ab-try-except.pyproj", "{9C943DC6-89F9-4A7A-B5F5-8C6584199428}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "52c-Else", "52c-Else\52c-Else.pyproj", "{DCB30057-4741-4876-BFCA-EA3D8009A9F4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "52d-Finally", "52d-Finally\52d-Finally.pyproj", "{630F9E77-3243-48E7-B03A-668DB3641024}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "52e-Raise", "52e-Raise\52e-Raise.pyproj", "{463919F0-1A75-42CF-B3D8-40EC68187D1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C943DC6-89F9-4A7A-B5F5-8C6584199428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C943DC6-89F9-4A7A-B5F5-8C6584199428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB30057-4741-4876-BFCA-EA3D8009A9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB30057-4741-4876-BFCA-EA3D8009A9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630F9E77-3243-48E7-B03A-668DB3641024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630F9E77-3243-48E7-B03A-668DB3641024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463919F0-1A75-42CF-B3D8-40EC68187D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463919F0-1A75-42CF-B3D8-40EC68187D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

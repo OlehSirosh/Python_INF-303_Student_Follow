@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "12a-Type Casting", "12a-Type Casting\12a-Type Casting.pyproj", "{A091FA10-4466-4D47-B1E1-767C8298BF0B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "12b_constructing data structures", "12b_constructing data structures\12b_constructing data structures.pyproj", "{B89AF5AD-9CB6-495E-8BD2-49BF0C3FC0EC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "12c-Indexing and Slicing Operations", "12c-Indexing and Slicing Operations\12c-Indexing and Slicing Operations.pyproj", "{271874B6-4FF4-4D67-84AC-051350436DDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A091FA10-4466-4D47-B1E1-767C8298BF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A091FA10-4466-4D47-B1E1-767C8298BF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89AF5AD-9CB6-495E-8BD2-49BF0C3FC0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89AF5AD-9CB6-495E-8BD2-49BF0C3FC0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271874B6-4FF4-4D67-84AC-051350436DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271874B6-4FF4-4D67-84AC-051350436DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "51a-Syntax Errors", "51a-Syntax Errors\51a-Syntax Errors.pyproj", "{C9AFB6C3-9347-469A-9804-C66CA326C8A2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "51b-Logic Errors", "51b-Logic Errors\51b-Logic Errors.pyproj", "{50B39578-74A5-41D2-9D6F-C83BB055F555}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "51c-Runtime Errors", "51c-Runtime Errors\51c-Runtime Errors.pyproj", "{CD77CB5F-38A0-403C-98E6-94F8883D465C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9AFB6C3-9347-469A-9804-C66CA326C8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AFB6C3-9347-469A-9804-C66CA326C8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B39578-74A5-41D2-9D6F-C83BB055F555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B39578-74A5-41D2-9D6F-C83BB055F555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD77CB5F-38A0-403C-98E6-94F8883D465C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD77CB5F-38A0-403C-98E6-94F8883D465C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

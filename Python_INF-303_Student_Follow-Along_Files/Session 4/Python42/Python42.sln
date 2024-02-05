@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "42a-Call Signatures", "42a-Call Signatures\42a-Call Signatures.pyproj", "{D390E804-5182-436B-8091-DD3A58F76A53}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "42b-Default Values", "42b-Default Values\42b-Default Values.pyproj", "{54C484BF-CF9B-4EAE-BD11-3C3E4F09D7B2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "42c-Return", "42c-Return\42c-Return.pyproj", "{8AF69CBD-3F96-430E-92FE-C0D1E33FF86E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "42d-def", "42d-def\42d-def.pyproj", "{7ADCAF65-23D3-4877-BA50-12D87C05EC94}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "42e-Pass", "42e-Pass\42e-Pass.pyproj", "{CF5281FD-4EFA-4ABC-95B5-C2C8B9CE983C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D390E804-5182-436B-8091-DD3A58F76A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D390E804-5182-436B-8091-DD3A58F76A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C484BF-CF9B-4EAE-BD11-3C3E4F09D7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C484BF-CF9B-4EAE-BD11-3C3E4F09D7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF69CBD-3F96-430E-92FE-C0D1E33FF86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF69CBD-3F96-430E-92FE-C0D1E33FF86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADCAF65-23D3-4877-BA50-12D87C05EC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADCAF65-23D3-4877-BA50-12D87C05EC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5281FD-4EFA-4ABC-95B5-C2C8B9CE983C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5281FD-4EFA-4ABC-95B5-C2C8B9CE983C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

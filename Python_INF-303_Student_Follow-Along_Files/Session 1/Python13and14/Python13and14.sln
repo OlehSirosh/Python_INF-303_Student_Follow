@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13a-14a-Assignments", "131-141-Assignments\13a-14a-Assignments.pyproj", "{DED0351B-08D2-41BE-8A4F-E76E7FBCA840}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13b-14b-Comparisons", "13b-14b-Comparisons\13b-14b-Comparisons.pyproj", "{7AB6C9F2-AAA5-40E6-9480-B445E79C63A7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13c-14c-Logical", "13c-14c-Logical\13c-14c-Logical.pyproj", "{8E40C63E-F9AC-42E4-B339-77E02C078450}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13d-14d-Arithmetic", "13d-14d-Arithmetic\13d-14d-Arithmetic.pyproj", "{1747BC40-4C3C-46D4-96E3-1A98E600310E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13e-14e-Identity", "13d-14d-Identity\13e-14e-Identity.pyproj", "{BB39A6F3-7FEB-4F98-B8B7-DA66DFA44B31}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13f-14f-Containment", "13f-14f-Containment\13f-14f-Containment.pyproj", "{0E22A23E-8127-4FF1-B1C0-4952B5A913AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED0351B-08D2-41BE-8A4F-E76E7FBCA840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED0351B-08D2-41BE-8A4F-E76E7FBCA840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB6C9F2-AAA5-40E6-9480-B445E79C63A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB6C9F2-AAA5-40E6-9480-B445E79C63A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E40C63E-F9AC-42E4-B339-77E02C078450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E40C63E-F9AC-42E4-B339-77E02C078450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1747BC40-4C3C-46D4-96E3-1A98E600310E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1747BC40-4C3C-46D4-96E3-1A98E600310E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB39A6F3-7FEB-4F98-B8B7-DA66DFA44B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB39A6F3-7FEB-4F98-B8B7-DA66DFA44B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E22A23E-8127-4FF1-B1C0-4952B5A913AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E22A23E-8127-4FF1-B1C0-4952B5A913AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "31a-Open", "31a-Open\31a-Open.pyproj", "{EC836E38-B015-4682-B2A6-FE9F7E3331D5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "31b-Close", "31b-Close\31b-Close.pyproj", "{9B491686-1C33-418D-8D32-45AA8E89AB2D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "31c-Read", "31c-Read\31c-Read.pyproj", "{1B0EF466-3B64-4526-AF19-AC2FB9616E15}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "31d-Write", "31d-Write\31d-Write.pyproj", "{4972C26E-5969-4BF6-B9CA-8D34CB2D0DBE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "31e-Check Existence", "31e-Check Existence\31e-Check Existence.pyproj", "{660DFBA1-F454-4B46-A40F-4D313C8B417A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "31f-Delete", "31f-Delete\31f-Delete.pyproj", "{127329D3-06A8-4A4F-A804-4535D6BA51BF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "31g-With statement", "31g-With statement\31g-With statement.pyproj", "{A03F3023-9182-4CA1-A578-577F76700DB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC836E38-B015-4682-B2A6-FE9F7E3331D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC836E38-B015-4682-B2A6-FE9F7E3331D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B491686-1C33-418D-8D32-45AA8E89AB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B491686-1C33-418D-8D32-45AA8E89AB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0EF466-3B64-4526-AF19-AC2FB9616E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0EF466-3B64-4526-AF19-AC2FB9616E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4972C26E-5969-4BF6-B9CA-8D34CB2D0DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4972C26E-5969-4BF6-B9CA-8D34CB2D0DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660DFBA1-F454-4B46-A40F-4D313C8B417A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660DFBA1-F454-4B46-A40F-4D313C8B417A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127329D3-06A8-4A4F-A804-4535D6BA51BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127329D3-06A8-4A4F-A804-4535D6BA51BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03F3023-9182-4CA1-A578-577F76700DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03F3023-9182-4CA1-A578-577F76700DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "22a-While", "22a-While\22a-While.pyproj", "{2EE1BEDE-C56A-4D2A-8429-43AA17468DAA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "22b-For", "22b-For\22b-For.pyproj", "{B68B1C43-7168-49B5-BF6A-CCD7B91CDE89}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "22c-Break", "22c-Break\22c-Break.pyproj", "{5B8ABCDE-DFCC-44E0-B04F-B8AAFE1C1EA2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "22d-Continue", "22d-Continue\22d-Continue.pyproj", "{C396223D-BCAF-4F4B-84E1-EBE868141190}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "22e-Pass", "22e-Pass\22e-Pass.pyproj", "{8D5FFFA4-8A26-47C6-9239-364C6158807B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "22f-Nested and Conditional loops", "22f-Nested and Conditional loops\22f-Nested and Conditional loops.pyproj", "{D5E21E4B-AA4A-4B3C-B309-12118C935FE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EE1BEDE-C56A-4D2A-8429-43AA17468DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE1BEDE-C56A-4D2A-8429-43AA17468DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68B1C43-7168-49B5-BF6A-CCD7B91CDE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68B1C43-7168-49B5-BF6A-CCD7B91CDE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8ABCDE-DFCC-44E0-B04F-B8AAFE1C1EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8ABCDE-DFCC-44E0-B04F-B8AAFE1C1EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C396223D-BCAF-4F4B-84E1-EBE868141190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C396223D-BCAF-4F4B-84E1-EBE868141190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5FFFA4-8A26-47C6-9239-364C6158807B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5FFFA4-8A26-47C6-9239-364C6158807B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E21E4B-AA4A-4B3C-B309-12118C935FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E21E4B-AA4A-4B3C-B309-12118C935FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
