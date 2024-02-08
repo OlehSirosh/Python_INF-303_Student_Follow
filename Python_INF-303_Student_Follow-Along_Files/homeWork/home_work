@@ -46,6 +46,7 @@ watches = ['Compass Watch', 'GPS Watch', 'Stun Watch', 'Nerve Gas Watch', 'Infla
 sort_watches = sorted(watches)
 sort_watches[0] = "Apple Watch"
 current_watch = sort_watches[3]
+print(sort_watches)
 print(current_watch)
 rations = ['Mars Bar', 'Powdered Soup','Dry Cereal','Trifle']
 rations.sort()
