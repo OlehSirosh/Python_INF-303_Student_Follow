@@ -1,11 +1,10 @@
-# Step 1
+# Exercises – Getting Hands On With Python
+# Solution 1
 print('Hello World')
-print(*str('Hello') + str(' ') + str('World'),sep='\n')
+print('Hello' + ' ' + 'World')
 a = 'Hello'
-b = 'World'
-c = ' '
-print(a + c + b,sep='\n')
-# Step 2
+print(a + ' World')
+# Solution 2
 firs_name = 'Oleh'
 last_name = 'Sirosh'
 age = 35
@@ -17,3 +16,46 @@ next_of_kin = []
 has_medical_card = True
 contact_number = '0874752353'
 print(type(firs_name),type(last_name),type(age),type(gender),type(weight),type(bmi),type(diagnoses),type(next_of_kin),type(has_medical_card),type(contact_number),sep = '\n')
+
+# Exercises – Operations using Data Types and Operators
+# Solution 1
+message = 'He said "There are some who call me ... Tim"'
+message = "He said \"There are some who call me ... Tim\""
+print(message)
+# Solution 2
+print(bool(True))
+print(bool(False))
+print(bool(0))
+print(bool(" "))
+print(bool(''))
+# Solution 3
+savings = 1050
+print("You have €" + str(savings) + " in the bank!")
+print("You have €" , savings , " in the bank!")
+# Solution 4
+balance = 350.00
+#deposit = input("Please enter the amount that you wish to deposit: ")
+#balance += float(deposit)
+#print(balance)
+#Solution 5
+temp = 19.9
+print("The current temp is", round(temp), "degrees") # This option will be correct in the context of determining the weather
+print("The current temp is", int(temp), "degrees")
+#Solution 6
+watches = ['Compass Watch', 'GPS Watch', 'Stun Watch', 'Nerve Gas Watch', 'Inflatable Dingy Watch', 'Android Watch', 'Lunchtime Alarm Watch(1:30pm)']
+sort_watches = sorted(watches)
+sort_watches[0] = "Apple Watch"
+current_watch = sort_watches[3]
+print(current_watch)
+rations = ['Mars Bar', 'Powdered Soup','Dry Cereal','Trifle']
+rations.sort()
+breakfast_of_champions = rations[:3]
+print(breakfast_of_champions)
+#Solution 7
+unlock_mission = 11
+unlock_weapon = 10
+hurdle_time = 9.95
+height_from_road = 10.74
+unlock_mission = hurdle_time <= 10 and height_from_road > 11
+unlock_weapon = hurdle_time <10 or height_from_road > 11
+print(unlock_mission, unlock_weapon)
