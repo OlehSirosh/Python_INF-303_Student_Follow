@@ -5,6 +5,7 @@ while capitalGuess != "Riga":
     numberOfGuesses = numberOfGuesses + 1
     if numberOfGuesses > 3:
         print("You guessed incorrectly three times. Game over.")
+        break
     capitalGuess = input("Guess again. ")
 
 

@@ -9,5 +9,6 @@ for monthlyGoal in range(1,13):
     monthlySalesGoal = initialSalesGoal + (monthlyGoal * multiplier)
 
     print("Your sales goal for month " + str(monthlyGoal) + " is " + str(monthlySalesGoal))
-    
+    for weeklyGoal in range(1,5):
+        print("You goal in week" + str(weeklyGoal) + " is " + str(monthlySalesGoal / 4))
 print("Good luck with your goals.")

@@ -34,9 +34,9 @@ print("You have €" + str(savings) + " in the bank!")
 print("You have €" , savings , " in the bank!")
 # Solution 4
 balance = 350.00
-#deposit = input("Please enter the amount that you wish to deposit: ")
-#balance += float(deposit)
-#print(balance)
+deposit = input("Please enter the amount that you wish to deposit: ")
+balance += float(deposit)
+print(balance)
 #Solution 5
 temp = 19.9
 print("The current temp is", round(temp), "degrees") # This option will be correct in the context of determining the weather
@@ -60,3 +60,5 @@ height_from_road = 10.74
 unlock_mission = hurdle_time <= 10 and height_from_road > 11
 unlock_weapon = hurdle_time <10 or height_from_road > 11
 print(unlock_mission, unlock_weapon)
+
+

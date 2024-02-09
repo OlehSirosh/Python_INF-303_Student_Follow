@@ -1,4 +1,7 @@
 capitalGuess = input("What is the capital of Latvia? ")
 numberOfGuesses = 1
 
-#add while and print statements here
+while capitalGuess != "Riga":
+    numberOfGuesses = numberOfGuesses +1
+    capitalGuess = input("Guess again ")
+print("You guessed it. Riga is the capital of the Latvia " + str(numberOfGuesses) + " quesses")

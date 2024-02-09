@@ -1,3 +1,4 @@
-annualSales = 600000
+annualSales = 300000
 if annualSales >= 500000:
-# add print statements here
+    print("Good Costomer")
+print("Thenk yuo for tour busuness")
