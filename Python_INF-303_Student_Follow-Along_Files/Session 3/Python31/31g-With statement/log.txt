@@ -1,1 +1,1 @@
-Happy Trails to you
+/usr/local/bin/python3 "/Users/alin/Desktop/Python_INF-303_Student_Follow/Python_INF-303_Student_Follow-Along_Files/Session 3/Python32/32a-ReadInput/_32a_ReadInput.py"

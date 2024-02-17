@@ -1,4 +1,4 @@
-price = 3.95
+price = 4
 widgets = 5
-print("The price of the widget is ", price)
-print("We have " + widgets + "in stock.")
+print(f"The price of the widget is , {price}")
+print(f"We have  {widgets} in stock.")

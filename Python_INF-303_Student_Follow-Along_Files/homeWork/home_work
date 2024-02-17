@@ -1,64 +1,212 @@
-# Exercises – Getting Hands On With Python
-# Solution 1
-print('Hello World')
-print('Hello' + ' ' + 'World')
-a = 'Hello'
-print(a + ' World')
-# Solution 2
-firs_name = 'Oleh'
-last_name = 'Sirosh'
-age = 35
-gender = 'Male'
-weight = 60.0
-bmi = 2.5
-diagnoses = []
-next_of_kin = []
-has_medical_card = True
-contact_number = '0874752353'
-print(type(firs_name),type(last_name),type(age),type(gender),type(weight),type(bmi),type(diagnoses),type(next_of_kin),type(has_medical_card),type(contact_number),sep = '\n')
+# # Exercises – Getting Hands On With Python
+# # Solution 1
+# print('Hello World')
+# print('Hello' + ' ' + 'World')
+# a = 'Hello'
+# print(a + ' World')
+# # Solution 2
+# firs_name = 'Oleh'
+# last_name = 'Sirosh'
+# age = 35
+# gender = 'Male'
+# weight = 60.0
+# bmi = 2.5
+# diagnoses = []
+# next_of_kin = []
+# has_medical_card = True
+# contact_number = '0874752353'
+# print(type(firs_name),type(last_name),type(age),type(gender),type(weight),type(bmi),type(diagnoses),type(next_of_kin),type(has_medical_card),type(contact_number),sep = '\n')
 
-# Exercises – Operations using Data Types and Operators
-# Solution 1
-message = 'He said "There are some who call me ... Tim"'
-message = "He said \"There are some who call me ... Tim\""
-print(message)
-# Solution 2
-print(bool(True))
-print(bool(False))
-print(bool(0))
-print(bool(" "))
-print(bool(''))
-# Solution 3
-savings = 1050
-print("You have €" + str(savings) + " in the bank!")
-print("You have €" , savings , " in the bank!")
-# Solution 4
-balance = 350.00
-deposit = input("Please enter the amount that you wish to deposit: ")
-balance += float(deposit)
-print(balance)
-#Solution 5
-temp = 19.9
-print("The current temp is", round(temp), "degrees") # This option will be correct in the context of determining the weather
-print("The current temp is", int(temp), "degrees")
-#Solution 6
-watches = ['Compass Watch', 'GPS Watch', 'Stun Watch', 'Nerve Gas Watch', 'Inflatable Dingy Watch', 'Android Watch', 'Lunchtime Alarm Watch(1:30pm)']
-sort_watches = sorted(watches)
-sort_watches[0] = "Apple Watch"
-current_watch = sort_watches[3]
-print(sort_watches)
-print(current_watch)
-rations = ['Mars Bar', 'Powdered Soup','Dry Cereal','Trifle']
-rations.sort()
-breakfast_of_champions = rations[:3]
-print(breakfast_of_champions)
-#Solution 7
-unlock_mission = 11
-unlock_weapon = 10
-hurdle_time = 9.95
-height_from_road = 10.74
-unlock_mission = hurdle_time <= 10 and height_from_road > 11
-unlock_weapon = hurdle_time <10 or height_from_road > 11
-print(unlock_mission, unlock_weapon)
+# # Exercises – Operations using Data Types and Operators
+# # Solution 1
+# message = 'He said "There are some who call me ... Tim"'
+# message = "He said \"There are some who call me ... Tim\""
+# print(message)
+# # Solution 2
+# print(bool(True))
+# print(bool(False))
+# print(bool(0))
+# print(bool(" "))
+# print(bool(''))
+# # Solution 3
+# savings = 1050
+# print("You have €" + str(savings) + " in the bank!")
+# print("You have €" , savings , " in the bank!")
+# # Solution 4
+# balance = 350.00
+# deposit = input("Please enter the amount that you wish to deposit: ")
+# balance += float(deposit)
+# print(balance)
+# #Solution 5
+# temp = 19.9
+# print("The current temp is", round(temp), "degrees") # This option will be correct in the context of determining the weather
+# print("The current temp is", int(temp), "degrees")
+# #Solution 6
+# watches = ['Compass Watch', 'GPS Watch', 'Stun Watch', 'Nerve Gas Watch', 'Inflatable Dingy Watch', 'Android Watch', 'Lunchtime Alarm Watch(1:30pm)']
+# sort_watches = sorted(watches)
+# sort_watches[0] = "Apple Watch"
+# current_watch = sort_watches[3]
+# print(sort_watches)
+# print(current_watch)
+# rations = ['Mars Bar', 'Powdered Soup','Dry Cereal','Trifle']
+# rations.sort()
+# breakfast_of_champions = rations[:3]
+# print(breakfast_of_champions)
+# #Solution 7
+# unlock_mission = 11
+# unlock_weapon = 10
+# hurdle_time = 9.95
+# height_from_road = 10.74
+# unlock_mission = hurdle_time <= 10 and height_from_road > 11
+# unlock_weapon = hurdle_time <10 or height_from_road > 11
+# print(unlock_mission, unlock_weapon)
 
+# list_of_numbers = [124, 148, 173, 231, 256, 301, 315, 361, 399]
+# for i in list_of_numbers:
+#     if (i == 315):
+#         break
+#     if (i % 7 == 0):
+#         continue
+#     print(i, end=" ")
+
+# original_list = [2,3,6,7,8,11,12,13,17,18]
+# cubes_list = [ x ** 3 for x in original_list if x % 3 == 0]
+# print(cubes_list)
+
+
+# max_num = int(input('Введите целое число: '))
+# num = 2
+# print("prime numbers up to %i" % max_num)
+# while num <= max_num:
+#     isPrime = True
+#     count = 2
+#     while count < num:
+#         if num % count == 0:
+#             isPrime = False
+#             break
+#         count += 1
+#     if isPrime:
+#         print(num)
+#     num += 1
+
+# 
+# # Values of player one's cards
+# player_one_cards = [10, 6, 8, 9, 7, 12, 7]
+
+# # Values of player two's cards
+# player_two_cards = [7, 6, 9, 5, 2, 8, 11]
+
+# # Initialize counters for each player
+# player_one_wins = 0
+# player_two_wins = 0
+
+# # Play seven rounds
+# for round_number in range(0, 7):
+#     # Get the current cards for both players
+#     player_one_card = player_one_cards[round_number]
+#     player_two_card = player_two_cards[round_number]
+
+#     # Display the current round
+#     print("Round number ",round_number + 1,":", "Player 1 plays", player_one_card, "Player 2 plays" ,player_two_card)
+
+#     # Determine the winner of the round
+#     if player_one_card > player_two_card:
+#         print("Player 1 wins the round, with" ,player_one_card, "beating" ,player_two_card)
+#         player_one_wins += 1
+#     elif player_one_card < player_two_card:
+#         print("Player 2 wins the round, with ",player_two_card, "beating" ,player_one_card)
+#         player_two_wins += 1
+#     else:
+#         print("Draw")
+
+# # Determine the overall winner of the game
+# if player_one_wins > player_two_wins:
+#     print("Player 1 wins the game, by" ,player_one_wins, "wins to" ,player_two_wins)
+# elif player_one_wins < player_two_wins:
+#     print("Player 2 wins the game, by" ,player_two_wins, "wins to" ,player_one_wins)
+
+# #I'm creating two lists of card players
+# player_one = [10, 6, 8, 9, 12, 7] # list with values of card player one
+# player_two = [7, 6, 9, 2, 8, 11] # list with values of card player two
+
+# #Create variables with starting values ​​of victories
+# p_one_win = 0
+# p_two_win = 0
+
+# #Create title the game
+# print("********** Card Busters**********")
+
+# #Start by creating a cycle of rounds
+# for game in range(6):
+#     p_one_card = player_one[game]#round_number variable as an index to access the corresponding card in the list
+#     p_two_card = player_two[game]
+# #Showing the current round
+#     print("Round number ", game + 1,":","Player 1 play", p_one_card, "Player 2 play", p_two_card)
+
+# #The process of determining the winner in round
+
+#     if p_one_card > p_two_card:
+#         print("Player 1 wins the round, with ", p_one_card, "beating", p_two_card)
+#         p_one_win += 1
+#     elif p_one_card < p_two_card:
+#         print("Player 2 wins the round, with ", p_one_card, "beating", p_two_card)
+#         p_two_win +=1
+#     else:
+#         print("Draw")
+
+#     # The process of determining the winner in game
+# if p_one_win > p_two_win:
+#     print("Player 1 wins the game, by", p_one_win, "wins to", p_two_win)
+# elif p_one_win < p_two_win:
+#     print("Player 1 wins the game, by", p_one_win, "wins to", p_two_win)
+
+
+
+# # Создание двух списков карт игроков
+# player_one = [10, 6, 8, 9, 12, 7]
+# player_two = [7, 6, 9, 2, 8, 11]
+
+# # Создание переменных для отслеживания побед
+# p_one_win = 0
+# p_two_win = 0
+
+# # Вывод заголовка игры
+# print("**********Card Busters**********")
+
+# # Цикл для проведения раундов
+# for game in range(6):
+#     # Получение карт текущего раунда для обоих игроков
+#     p_one_card = player_one[game]
+#     p_two_card = player_two[game]
+
+#     # Вывод информации о текущем раунде
+#     print("Round number", game + 1, ": Player 1 plays", p_one_card, "Player 2 plays", p_two_card)
+
+#     # Определение победителя в раунде
+#     if p_one_card > p_two_card:
+#         print("Player 1 wins the round, with", p_one_card, "beating", p_two_card)
+#         p_one_win += 1
+#     elif p_one_card < p_two_card:
+#         print("Player 2 wins the round, with", p_two_card, "beating", p_one_card)
+#         p_two_win += 1
+#     else:
+#         print("This round has ended in a draw")
+
+# # Вывод результатов игры после окончания всех раундов
+# if p_one_win > p_two_win:
+#     print("Player 1 wins the game, by", p_one_win, "wins to", p_two_win)
+# elif p_one_win < p_two_win:
+#     print("Player 2 wins the game, by", p_two_win, "wins to", p_one_win)
+# else:
+#     print("The game ends in a tie!")
+
+
+# def name():
+#     my_list = ["life", "answer", 42, 0]
+#     for thing in my_list:
+#         if thing == 0:
+#             my_list[thing] = "universe"
+#         elif thing == 42:
+#             my_list[1] = "everything"
+# print(name())
 

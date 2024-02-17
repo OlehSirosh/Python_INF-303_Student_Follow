@@ -1,5 +1,6 @@
-workFile = # open the jackets file
-workFileContents = # read the jackets file
+import os
+workFile = open('jackets.txt', 'r')  # open the jackets file
+workFileContents = workFile.read() # read the jackets file
 print(workFileContents)
 
 
