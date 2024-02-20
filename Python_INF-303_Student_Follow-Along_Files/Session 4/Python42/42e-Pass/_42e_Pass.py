@@ -3,7 +3,8 @@ def fullName(firstName, lastName):
     print("Initials: "+ firstName[0]+lastName[0])
     return
 
-# add personInfo function here
+def personInfo():
+    pass # know where to get the info
 
 
 fullName("Mighty", "Mouse")

@@ -1,14 +1,15 @@
+#set test variables
 region = "West"
 annualSales = 500000
 firstName = "Tony"
-
+# sales logic
 if annualSales >= 500000:
     print("Gold Customer")
 elif annualSales >= 300000:
     print("Silver Customer")
 elif annualSales >= 100000:
     print("Bronze Customer")
-
+# print program
 print("Thank you for your business")
 print(f"Your sales representative is {firstName}, you are in the {region} region, " \
 "and you had {sales] in sales last year. Thanks!")

@@ -1,1 +1,1 @@
-print(pydoc )
+print(help())

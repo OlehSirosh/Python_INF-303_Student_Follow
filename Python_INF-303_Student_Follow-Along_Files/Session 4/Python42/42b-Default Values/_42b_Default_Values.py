@@ -1,4 +1,4 @@
-def subtotal(orderAmt, salesTax):
+def subtotal(orderAmt, salesTax=.08):
     subtotal = float(orderAmt) * (1 + float(salesTax))
     return subtotal
 
@@ -10,7 +10,7 @@ thirdOrderAmount = input("What was the order amount? ")
 thirdTax = input("Enter your sales tax rate.")
 thirdOrderTotal = subtotal(thirdOrderAmount, thirdTax)
 
-#add fourthOrderTotal variable here
+fourthOrderTotal = subtotal(800)
 
 print ("Your subtotal for the first order is %.2f" %firstOrderTotal)
 print ("Your subtotal for the second order is %.2f" %secondOrderTotal)
