@@ -1,8 +1,12 @@
 import datetime
-todayWithTime = #today with the time
-todayWithoutTime = #today without the time
+
+todayWithTime = datetime.datetime.now()
+todayWithoutTime = datetime.date.today()
+
 print(todayWithTime)
 print(todayWithoutTime)
-print("The current date is", datetime.datetime.strftime(#today without time in mm/dd/yyy format))
-print("The current time is", datetime.datetime.strftime(#today with time in hh:mm:ss format))
+
+print("The current date is", todayWithoutTime.strftime("%m/%d/%Y"))
+print("The current time is", todayWithTime.strftime("%H:%M:%S"))
+
 

@@ -1,9 +1,10 @@
-#add the math module
+# import math
+import datetime
+# pi = math.pi()
+# upperBound = math.ceil()
+# lowerBound = math.floor()
 
-pi = #pi from the math module
-upperBound = #ceil from the math module
-lowerBound = #floor from the math module
-
-print(pi)
-print(upperBound)
-print(lowerBound)
+# print(pi)
+# print(upperBound)
+# print(lowerBound)
+print(datetime.today().strftime('%B'))

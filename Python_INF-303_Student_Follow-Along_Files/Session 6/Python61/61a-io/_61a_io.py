@@ -1,8 +1,12 @@
 import io
 
-#use with statement to open log.txt
+with open() as writeFile:
 	toLog = input("What do you want to write to the log? ")
-	
-#write user input to file with method named toLog
-	
+	writeFile.write(toLog)
+
+# def blub():
+#     a = list([1])
+#     a.append(1.0)
+#     return a
+# print(blub())
 
